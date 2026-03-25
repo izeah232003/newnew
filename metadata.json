@@ -1,0 +1,7 @@
+{
+  "name": "THRIFTED",
+  "description": "A modern thrift shop landing page built with pure HTML, CSS, and JS.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

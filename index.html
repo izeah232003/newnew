@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THRIFTED | Modern Thrift Shop</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">THRIFTED</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Find your unique style</h1>
+            <a href="#shop" class="btn-primary">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- Home Features / Categories -->
+    <section class="categories-section">
+        <div class="category-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=80');">
+            <h3>Clothing</h3>
+        </div>
+        <div class="category-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?auto=format&fit=crop&w=800&q=80');">
+            <h3>Accessories</h3>
+        </div>
+        <div class="category-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80');">
+            <h3>Shoes</h3>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1555529771-835f59fc5efe?auto=format&fit=crop&w=800&q=80" alt="Inside our thrift shop">
+            </div>
+            <div class="about-text">
+                <h2 class="section-title" style="text-align: left;">Our Story</h2>
+                <p>Welcome to THRIFTED, where sustainable fashion meets unique personal style. We hand pick every item in our collection to ensure quality, authenticity, and character.</p>
+                <ul class="features-list">
+                    <li>♻️ 100% Sustainable & Eco-friendly</li>
+                    <li>✨ Curated Vintage Pieces</li>
+                    <li>🚚 Free Shipping on orders over ₱2,500</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="shop" class="products-section">
+        <h2 class="section-title">Vintage Finds</h2>
+        
+        <!-- Shop Controls (Feature) -->
+        <div class="shop-controls">
+            <input type="text" id="searchInput" placeholder="Search products..." class="search-input">
+            <select id="sortSelect" class="sort-select">
+                <option value="default">Sort by: Featured</option>
+                <option value="low-high">Price: Low to High</option>
+                <option value="high-low">Price: High to Low</option>
+            </select>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+            
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1576871337622-98d48d1cf531?auto=format&fit=crop&w=800&q=80" alt="Vintage Denim Jacket">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Vintage Denim Jacket</h3>
+                    <p class="product-price">₱2,250.00</p>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?auto=format&fit=crop&w=800&q=80" alt="Retro Graphic Tee">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Retro Graphic Tee</h3>
+                    <p class="product-price">₱1,250.00</p>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=800&q=80" alt="Classic Leather Boots">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Classic Leather Boots</h3>
+                    <p class="product-price">₱3,000.00</p>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=800&q=80" alt="90s Oversized Sweater">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">90s Oversized Sweater</h3>
+                    <p class="product-price">₱1,750.00</p>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80" alt="Vintage Leather Jacket">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Vintage Leather Jacket</h3>
+                    <p class="product-price">₱4,250.00</p>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80" alt="Retro Sunglasses">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Retro Sunglasses</h3>
+                    <p class="product-price">₱750.00</p>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=800&q=80" alt="Plaid Flannel Shirt">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Plaid Flannel Shirt</h3>
+                    <p class="product-price">₱1,100.00</p>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80" alt="High-Waisted Mom Jeans">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">High-Waisted Mom Jeans</h3>
+                    <p class="product-price">₱1,900.00</p>
+                </div>
+            </div>
+
+            <!-- Product 9 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1542272604-780c823d11fc?auto=format&fit=crop&w=800&q=80" alt="80s Windbreaker">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">80s Windbreaker</h3>
+                    <p class="product-price">₱2,000.00</p>
+                </div>
+            </div>
+
+            <!-- Product 10 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80" alt="Classic Converse All Stars">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Classic Converse All Stars</h3>
+                    <p class="product-price">₱1,500.00</p>
+                </div>
+            </div>
+
+            <!-- Product 11 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=800&q=80" alt="Corduroy Overalls">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Corduroy Overalls</h3>
+                    <p class="product-price">₱2,250.00</p>
+                </div>
+            </div>
+
+            <!-- Product 12 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=800&q=80" alt="Vintage Band Tee">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Vintage Band Tee</h3>
+                    <p class="product-price">₱1,400.00</p>
+                </div>
+            </div>
+
+            <!-- Product 13 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1434389678369-182f45689192?auto=format&fit=crop&w=800&q=80" alt="Chunky Knit Cardigan">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Chunky Knit Cardigan</h3>
+                    <p class="product-price">₱1,600.00</p>
+                </div>
+            </div>
+
+            <!-- Product 14 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=80" alt="Retro Polaroid Camera">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Retro Polaroid Camera</h3>
+                    <p class="product-price">₱2,750.00</p>
+                </div>
+            </div>
+
+            <!-- Product 15 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80" alt="Floral Midi Dress">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Floral Midi Dress</h3>
+                    <p class="product-price">₱1,300.00</p>
+                </div>
+            </div>
+
+            <!-- Product 16 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=80" alt="Leather Crossbody Bag">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Leather Crossbody Bag</h3>
+                    <p class="product-price">₱2,100.00</p>
+                </div>
+            </div>
+
+            <!-- Product 17 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?auto=format&fit=crop&w=800&q=80" alt="70s Bell Bottoms">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">70s Bell Bottoms</h3>
+                    <p class="product-price">₱1,800.00</p>
+                </div>
+            </div>
+
+            <!-- Product 18 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1591369822096-1141562f011e?auto=format&fit=crop&w=800&q=80" alt="Distressed Denim Shorts">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Distressed Denim Shorts</h3>
+                    <p class="product-price">₱1,000.00</p>
+                </div>
+            </div>
+
+            <!-- Product 19 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1601924994987-69e26d50dc26?auto=format&fit=crop&w=800&q=80" alt="Vintage Silk Scarf">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Vintage Silk Scarf</h3>
+                    <p class="product-price">₱900.00</p>
+                </div>
+            </div>
+
+            <!-- Product 20 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1559551409-dadc959f76b8?auto=format&fit=crop&w=800&q=80" alt="Classic Trench Coat">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Classic Trench Coat</h3>
+                    <p class="product-price">₱3,250.00</p>
+                </div>
+            </div>
+
+            <!-- Product 21 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=800&q=80" alt="Retro Baseball Cap">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Retro Baseball Cap</h3>
+                    <p class="product-price">₱750.00</p>
+                </div>
+            </div>
+
+            <!-- Product 22 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1596755094514-f87e32f85e23?auto=format&fit=crop&w=800&q=80" alt="Patterned Button-Up">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Patterned Button-Up</h3>
+                    <p class="product-price">₱1,200.00</p>
+                </div>
+            </div>
+
+            <!-- Product 23 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=800&q=80" alt="Suede Ankle Boots">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Suede Ankle Boots</h3>
+                    <p class="product-price">₱2,400.00</p>
+                </div>
+            </div>
+
+            <!-- Product 24 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1582142306909-195724d33ffc?auto=format&fit=crop&w=800&q=80" alt="Vintage Plaid Skirt">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Vintage Plaid Skirt</h3>
+                    <p class="product-price">₱1,400.00</p>
+                </div>
+            </div>
+
+            <!-- Product 25 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=800&q=80" alt="Oversized Blazer">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Oversized Blazer</h3>
+                    <p class="product-price">₱2,000.00</p>
+                </div>
+            </div>
+
+            <!-- Product 26 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1577803645773-f96470509666?auto=format&fit=crop&w=800&q=80" alt="Round Frame Glasses">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Round Frame Glasses</h3>
+                    <p class="product-price">₱600.00</p>
+                </div>
+            </div>
+
+            <!-- Product 27 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1618244972963-dbee1a7edc95?auto=format&fit=crop&w=800&q=80" alt="Striped Turtleneck">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Striped Turtleneck</h3>
+                    <p class="product-price">₱1,100.00</p>
+                </div>
+            </div>
+
+            <!-- Product 28 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1597633244018-b15971f2ba26?auto=format&fit=crop&w=800&q=80" alt="Canvas Tote Bag">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Canvas Tote Bag</h3>
+                    <p class="product-price">₱800.00</p>
+                </div>
+            </div>
+
+            <!-- Product 29 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80" alt="Vintage Leather Belt">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Vintage Leather Belt</h3>
+                    <p class="product-price">₱1,000.00</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Visit Our Store</h3>
+                <p>123 Vintage Avenue<br>Thrift City, TC 90210</p>
+                <p><strong>Email:</strong> hello@thrifted.com</p>
+                <p><strong>Phone:</strong> (555) 123-4567</p>
+                <div class="store-hours">
+                    <h4>Hours</h4>
+                    <p>Mon-Sat: 10am - 7pm<br>Sun: 11am - 5pm</p>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">THRIFTED</div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
